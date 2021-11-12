@@ -3,7 +3,7 @@ import './style.css';
 // 1. En una variable llamada holes, guardar todos los elementos de tipo .hole
 const scoreBoard = document.querySelector('.score-value');
 const bugs = document.querySelectorAll('.bug');
-const holes = document.querySelectorAll('.holes');
+const holes = document.querySelectorAll('.hole');
 
 let lastHole;
 let timeUp = false;
@@ -54,6 +54,7 @@ function golpear(event) {
 
 function iniciarJuego() {
   scoreBoard.textContent = 0;
+  score = 0;
   timeUp = false;
 
   saltar();
