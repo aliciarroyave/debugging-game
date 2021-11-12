@@ -67,3 +67,4 @@ for (var i = 0, len = bugs.length; i < len; i++) {
 }
 
 // 5. Hacer un bind del evento click del boton iniciar juego
+document.getElementById('start').addEventListener('click', iniciarJuego);
