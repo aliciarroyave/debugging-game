@@ -40,6 +40,7 @@ function saltar() {
     hole.classList.remove('up');
     // Hace que un nuevo bug salte desde un agujero si el tiempo no ha terminado
     if (!timeUp) saltar();
+    else window.alert('Fin del Juego, su puntuacion fue: ' + score);
   }, time);
 }
 

@@ -2,10 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
 html {
   @apply text-white m-0;
-  background-color: #010114;
+  background-color: #333;
 }
 
 h1 {
@@ -13,6 +12,9 @@ h1 {
 }
 
 .app {
+  background: url('/img/stars-bg.jpg') no-repeat center center;
+  background-size: cover;
+  opacity: calc(50);
   @apply h-screen w-screen;
 }
 
@@ -54,6 +56,6 @@ h1 {
 #start {
   @apply rounded-full py-3 px-6 my-2 mx-auto inline-block;
   @apply border-pink-500 border-2;
-
+  border-color: aqua;
   max-width: 400px;
 }
